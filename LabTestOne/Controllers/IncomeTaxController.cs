@@ -12,5 +12,10 @@ namespace LabTestOne.Controllers
         {
             return View();
         }
+
+        public IActionResult RePracticePge01()
+        {
+            return View();
+        }
     }
 }
