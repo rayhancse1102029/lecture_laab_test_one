@@ -6,39 +6,43 @@
 
 <style>
     .section_cls {
-        background: whitesmoke;        
+        background: whitesmoke;
     }
+
     #page_one_heading_id {
-        text-align:center;
-        font-weight:bold;
+        text-align: center;
+        font-weight: bold;
     }
-    #sheel_no_id{
-        border:2px solid black;
-        padding:5px;
-        text-align:center;
+
+    #sheel_no_id {
+        border: 2px solid black;
+        padding: 5px;
+        text-align: center;
     }
-    #page_one_id{
-        padding-top:70px;
+
+    #page_one_id {
+        padding-top: 70px;
     }
 </style>
 
 <br />
 <section class="section_cls" id="page_one_id">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xl-10 col-lg-10 col-md-8 col-sm-8" id="page_one_heading_id">
-                <p>
-                    FORM OF RETUN OF INCOME UNDER THE INCOME TAX <br />
-                    ORDINANCE, 1984 (XXXVI OF 1984)
-                </p>
-            </div>
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
-                <p id="sheel_no_id">
-                    IT-11GA
-                </p>
+    <form id="myForm">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-10 col-md-8 col-sm-8" id="page_one_heading_id">
+                    <p>
+                        FORM OF RETUN OF INCOME UNDER THE INCOME TAX <br />
+                        ORDINANCE, 1984 (XXXVI OF 1984)
+                    </p>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                    <p id="sheel_no_id">
+                        IT-11GA
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
         <br />
         <div class="row" style="text-align:center; font-weight:bold">
             <div class="col-xl-3 col-lg-3 col-md-3"></div>
@@ -215,27 +219,49 @@
                     </div>
                 </div>
                 <div class="form-group row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-2">
-                        <label class="col-from-label col-md-2">14. Address </label>
-                        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-6">
-                            <label class="col-from-label col-md6">(a) Present:</label>
-                            <input type="text" name="" id="" class="form-control" />
+                    <label class="col-from-label col-md-1">14.Address:  </label>
+                    <div class="col-lg-11 col-md-11 col-sm-10">
+                        <div class="row form-group">
+                            <label class="col-from-label col-md-2">(a) Presest:  </label>
+                            <div class="col-md-10">
+                                <textarea rows="7" class="form-control"></textarea>
+                            </div>
                         </div>
-                        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
-                            <label class="col-from-label col-md-6">(b) Permanent: </label>
-                            <input type="text" name="" id="" class="form-control" />
-                        </div>
-                           
-
+                        <div class="row form-group">
+                            <label class="col-from-label col-md-2">(b) Parmanet:  </label>
+                            <div class="col-md-10">
+                                <textarea rows="7" class="form-control"></textarea>
+                            </div>
                         </div>
                     </div>
-                
-
-
-
+                </div>
+                <div class="form-group row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <label class="col-from-label col-md-6">15. Telephone: Office/Business </label>
+                        <div class="col-md-6">
+                            <input type="text" name="" id="" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <label class="col-from-label col-md-2"> Residential: </label>
+                        <div class="col-md-10">
+                            <input type="text" name="" id="" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-from-label col-md-4"> 16. VAT Registration Number (if any):  </label>
+                    <div class="col-md-8">
+                        <input type="text" name="" id="" class="form-control" />
+                    </div>
+                </div>
             </div>
         </div>
+        <br />
+        <button class="btn float-right btn-lg btn-success" style="margin-right:auto">Submit</button>
+    </form>
 </section>
+
 <br />
 <br />
 <section class="section_cls" id="page_two_id"></section>
