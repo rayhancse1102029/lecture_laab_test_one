@@ -27,5 +27,11 @@ namespace LabTestOne.Models
         public string mobileOffice { get; set; }
         public string residential { get; set; }
         public string vatRegistrationNo { get; set; }
+
+
+        public IncomeTax incomeTax { get; set; }
+        public IEnumerable<IncomeTax> incomeTaxes { get; set; }
+
+
     }
 }
