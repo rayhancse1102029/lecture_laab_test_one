@@ -23,7 +23,7 @@ namespace LabTestOne.Data
 
         #region Income Tax
 
-        public DbSet<IncomeTax> incomeTaxes { get; set; }
+        public DbSet<IncomeTax> IncomeTaxes { get; set; }
         
         #endregion
     }

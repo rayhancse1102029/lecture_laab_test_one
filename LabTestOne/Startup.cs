@@ -148,17 +148,17 @@ namespace LabTestOne
                       template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
                 routes.MapRoute(
-                    name: "controllers",
+                    name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
 
                 //routes.MapRoute(
                 //    name: "controller",
                 //    template: "{controller=exists}/{action=Index}/{id?}");
 
-                routes.MapAreaRoute(
-                    name: "default",
-                    areaName: "Auth",
-                    template: "{controller=Account}/{action=Login}/{id?}");
+                //routes.MapAreaRoute(
+                //    name: "default",
+                //    areaName: "Auth",
+                //    template: "{controller=Account}/{action=Login}/{id?}");
             });
         }
     }
