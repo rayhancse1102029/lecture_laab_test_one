@@ -12,6 +12,8 @@ namespace LabTestOne.Controllers
         {
             return View();
         }
+
+
         public IActionResult StudentRejestision()
         {
             return View();
